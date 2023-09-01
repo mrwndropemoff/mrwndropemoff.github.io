@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Edward Newgate",
+    "title": "Founder Circle",
+    "picture": "xsgames.co/randomusers/avatar.php?g=male",
+    "description": "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"
+  },
+  {
+    "name": "Olivia Parker",
+    "title": "Chief Medical Officer",
+    "picture": "xsgames.co/randomusers/avatar.php?g=female",
+    "description": "With years of experience in medical practice, I ensure the highest standards of patient care and well-being."
+  },
+  {
+    "name": "Sophia Anderson",
+    "title": "Lead Nurse",
+    "picture": "xsgames.co/randomusers/avatar.php?g=male",
+    "description": "As the lead nurse, I'm committed to providing compassionate care and ensuring patients receive the best treatment possible."
+  },
+  {
+    "name": "Ella Foster",
+    "title": "Patient Care Coordinator",
+    "picture": "xsgames.co/randomusers/avatar.php?g=male",
+    "description": "I'm dedicated to assisting patients in navigating their healthcare journey and ensuring they receive the support they need."
+  }
+]
