@@ -56,7 +56,7 @@ export const Slider = (props) => {
           className="col-start-1 col-end-2 mr-8"
           onClick={() => prevSlide()}
         >
-          <img src="src/assets/buttons/btn-right.svg" alt="right" />
+          <img src="assets/buttons/btn-right.svg" alt="right" />
         </button>
         <div className=" col-start-6 flex gap-2">
           {Array.from({ length: totalSlides }, (_, index) => (
@@ -74,7 +74,7 @@ export const Slider = (props) => {
           className="col-start-11 col-end-12 ml-8"
           onClick={() => nextSlide()}
         >
-          <img src="src/assets/buttons/btn-left.svg" alt="left" />
+          <img src="assets/buttons/btn-left.svg" alt="left" />
         </button>
       </div>
     </div>
