@@ -17,42 +17,42 @@ export const PageService = () => {
           <img src="src/assets/background/element-1.svg" alt="element-1" />
         </div>
         <div className=" absolute left-0 bottom-[-900px]">
-          <img src="src/assets/background/bg-1.svg" alt="bg-1" />
+          <img src="./src/assets/background/bg-1.svg" alt="bg-1" />
         </div>
         <Service
           key="1"
           title="Search doctor"
-          logo="src/assets/service-icons/search-doctor.svg"
+          logo="./src/assets/service-icons/search-doctor.svg"
           description="Choose your doctor from thousands of specialist, general, and trusted hospitals"
         />
         <Service
           key="2"
           title="Online pharmacy"
-          logo="src/assets/service-icons/online-pharmacy.svg"
+          logo="./src/assets/service-icons/online-pharmacy.svg"
           description="Buy your medicines with our mobile application with a simple delivery system"
         />
         <Service
           key="3"
           title="Consultation"
-          logo="src/assets/service-icons/consultation.svg"
+          logo="./src/assets/service-icons/consultation.svg"
           description="Free consultation with our trusted doctors and get the best recomendations"
         />
         <Service
           key="4"
           title="Details info"
-          logo="src/assets/service-icons/details-info.svg"
+          logo="./src/assets/service-icons/details-info.svg"
           description="Free consultation with our trusted doctors and get the best recomendations"
         />
         <Service
           key="5"
           title="Emergency care"
-          logo="src/assets/service-icons/emergency-care.svg"
+          logo="./src/assets/service-icons/emergency-care.svg"
           description="You can get 24/7 urgent care for yourself or your children and your lovely family"
         />
         <Service
           key="6"
           title="Tracking"
-          logo="src/assets/service-icons/tracking.svg"
+          logo="./src/assets/service-icons/tracking.svg"
           description="Track and save your medical history and health data"
         />
       </div>

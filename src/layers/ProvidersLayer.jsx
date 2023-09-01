@@ -1,7 +1,7 @@
 export const ProvidersLayer = () => {
   return (
     <div className="grid grid-cols-2 items-center mt-56 gap-10">
-      <img src="/src/assets/trafalgar-illustration-sec2.svg" alt="providers" />
+      <img src="./src/assets/trafalgar-illustration-sec2.svg" alt="providers" />
       <div className="text-left ml-20 mt-6">
         <p className="text-header text-5xl font-medium mb-9">
           Leading healthcare providers

@@ -12,7 +12,7 @@ export const PageMain = () => {
         </button>
       </div>
       <img
-        src="/src/assets/trafalgar-header-illustration.svg"
+        src="./src/assets/trafalgar-header-illustration.svg"
         alt="illustration"
         width="693px"
         height="598px"

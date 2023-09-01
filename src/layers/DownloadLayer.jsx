@@ -15,7 +15,7 @@ export const DownloadLayer = () => {
           Download
         </button>
       </div>
-      <img src="src/assets/trafalgar-illustration-sec03.svg" alt="sec3" />
+      <img src="./src/assets/trafalgar-illustration-sec03.svg" alt="sec3" />
     </div>
   );
 };
