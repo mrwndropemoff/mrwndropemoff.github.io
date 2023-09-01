@@ -34,16 +34,20 @@ export const Slider = (props) => {
           <div className="grid grid-flow-col text-left gap-6 items-center">
             <img
               className=" rounded-full border-4 h-36 w-36 "
-              src={`https://${profile.picture}`}
+              src={profile ? `https://${profile.picture}` : ""}
               alt="profile"
             />
             <div>
-              <p className=" font-semibold text-2xl">{profile.name}</p>
-              <p className=" font-normal text-lg">{profile.job}</p>
+              <p className=" font-semibold text-2xl">
+                {profile ? profile.name : ""}
+              </p>
+              <p className=" font-normal text-lg">
+                {profile ? profile.job : ""}
+              </p>
             </div>
           </div>
           <p className="w-[420px] ml-10 text-lg grid items-center font-extralight text-left">
-            “{profile.description}”
+            “{profile ? profile.description : ""}”
           </p>
         </div>
       </section>

@@ -6,15 +6,16 @@ export const CustomersLayer = () => {
   const [profiles, setProfiles] = useState([]);
 
   useEffect(() => {
+    // Use useEffect to fetch data asynchronously
     axios
       .get("https://mocki.io/v1/8a4d1713-1eec-4cb7-ad38-21a07a89fa6a")
       .then((response) => {
         setProfiles(response.data);
       })
       .catch((error) => {
-        console.error("Error fetching profiles:", error);
+        console.error("Error fetching data:", error);
       });
-  }, []);
+  }, []); // Empty dependency array to run this effect only once
 
   return (
     <div className="relative mt-64">
