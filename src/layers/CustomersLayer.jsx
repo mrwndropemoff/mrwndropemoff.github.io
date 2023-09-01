@@ -20,13 +20,13 @@ export const CustomersLayer = () => {
     <div className="relative mt-64">
       <img
         className="absolute z-20 right-9 top-[-12px]"
-        src="./src/assets/background/element-1-white.svg"
+        src="assets/background/element-1-white.svg"
         alt="element 1"
       />
       <Slider profiles={profiles} />
       <img
         className="absolute z-0 bottom-32 left-7"
-        src="./src/assets/background/element-1.svg"
+        src="assets/background/element-1.svg"
         alt="element 2"
       />
     </div>

@@ -5,7 +5,7 @@ export default function PageHeader() {
     <header className="pt-12">
       <div className="flex justify-between flex-row">
         <img
-          src="./src/assets/Trafalgar-logo.svg"
+          src="assets/Trafalgar-logo.svg"
           alt="logo"
           width="160px"
           height="41px"
