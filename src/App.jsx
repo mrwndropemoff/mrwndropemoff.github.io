@@ -10,7 +10,7 @@ function App() {
         <a href="https://www.instagram.com/opiumfragrance_" className="text-blue-500 hover:text-blue-700 flex items-center space-x-2">
           <FaInstagram className="w-10 h-10" />
         </a>
-        <a href="https://wa.me/0708751666" className="text-green-500 hover:text-green-700 flex items-center space-x-2">
+        <a href="https://wa.me/212708751666" className="text-green-500 hover:text-green-700 flex items-center space-x-2">
           <FaWhatsapp className=" w-10 h-10" />
         </a>
         <a href="https://www.tiktok.com/@opiumfragrances" className="text-black hover:text-gray-700 flex items-center space-x-2">
